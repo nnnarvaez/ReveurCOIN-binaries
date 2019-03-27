@@ -2,7 +2,9 @@
 A test CHAIN based on the STEEM blockchain
 
 Clone
-unzip reveurd.zip
+`git clone https://github.com/nnnarvaez/ReveurCOIN-binaries.git`
+
+Unzip reveurd.zip
 
 _Make sure all files are in the same directory_
 _(Not sure how git will serve them gotta test)_
@@ -14,7 +16,8 @@ run `./reveurd -d <newdir>`
 ### Todo: 
 * Match config.ini used ports to ports in rev_wallet (probably better to have ports different than the original steem B/C)
 * Recompile rev_wallet with nice default port values
-
+* Reupload single zip file with suggested folder structure
+* Recompile reveurd in low memory mode
 
 ```
   -h [ --help ]                         Print this help message and exit.
