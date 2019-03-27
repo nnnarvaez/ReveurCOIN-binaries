@@ -58,7 +58,7 @@ Archive:  reveurd.zip
 ### Todo: 
 * Match config.ini used ports to ports in rev_wallet (probably better to have ports different than the original steem B/C)
 * Recompile rev_wallet with nice default port values
-* Reupload single zip file with suggested folder structure
+* ~Reupload single zip file with suggested folder structure~ **done**
 * Recompile reveurd in low memory mode
 
 ```
