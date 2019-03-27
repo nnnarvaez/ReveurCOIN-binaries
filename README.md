@@ -10,18 +10,24 @@ $ git clone https://github.com/nnnarvaez/ReveurCOIN-binaries.git
 $ unzip reveurd.zip
 ```
 
-`cd data` edit config.ini adding your witness name and active key
+```
+$ cd data
+
+``` 
+Edit config.ini adding your witness name and active key
 
 You can change the ports to suit your system
-`cd ..`
-run `./reveurd -d <newdir>`
+```
+$ cd ..
+$ reveurd -d <newdir>
+```
 
 You will see a lot of red and it will start receiving pushed blocks 
 There is a constant warning of block size too small, it was a failed attemp to avoid writting empty blocks, it is just a warning ignore it, it will be removed in the next release.
 
 **Run the wallet:**
 ```
-./rev_wallet -s ws://127.0.0.1:8752
+$ rev_wallet -s ws://127.0.0.1:8752
 ```
 Localhost and the port (8752 is the one used in the provided config.ini)
 
