@@ -19,7 +19,7 @@ Edit config.ini adding your witness name and active key
 You can change the ports to suit your system
 ```
 $ cd ..
-$ reveurd -d <newdir>
+$ reveurd -d data
 ```
 
 You will see a lot of red and it will start receiving pushed blocks 
