@@ -22,7 +22,7 @@ There is a constant warning of block size too small, it was a failed attemp to a
 **Run the wallet:**
 ```
 ./rev_wallet -s ws://127.0.0.1:8752
-``
+```
 Localhost and the port (8752 is the one used in the provided config.ini)
 
 ```
