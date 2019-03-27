@@ -2,9 +2,10 @@
 A test CHAIN based on the STEEM blockchain
 
 Clone
+
 `git clone https://github.com/nnnarvaez/ReveurCOIN-binaries.git`
 
-Unzip reveurd.zip
+`unzip reveurd.zip` Unzip reveurd.zip
 
 _Make sure all files are in the same directory_
 _(Not sure how git will serve them gotta test)_
