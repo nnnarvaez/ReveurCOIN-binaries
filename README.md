@@ -1,19 +1,53 @@
 # ReveurCOIN-binaries
 A test CHAIN based on the STEEM blockchain
 
+
+### Install and deployment
 Clone
 
-`git clone https://github.com/nnnarvaez/ReveurCOIN-binaries.git`
+```
+$ git clone https://github.com/nnnarvaez/ReveurCOIN-binaries.git
+$ unzip reveurd.zip
+```
 
-`unzip reveurd.zip` Unzip reveurd.zip
+`cd data` edit config.ini adding your witness name and active key
 
-_Make sure all files are in the same directory_
-_(Not sure how git will serve them gotta test)_
-
-make a new folder inside folder
-move `config.ini` to your new created folder
+You can change the ports to suit your system
+`cd ..`
 run `./reveurd -d <newdir>`
 
+You will see a lot of red and it will start receiving pushed blocks 
+There is a constant warning of block size too small, it was a failed attemp to avoid writting empty blocks, it is just a warning ignore it, it will be removed in the next release.
+
+**Run the wallet:**
+```
+./rev_wallet -s ws://127.0.0.1:8752
+``
+Localhost and the port (8752 is the one used in the provided config.ini)
+
+```
+set_password superSecure1234
+unlock superSecure1234
+import_key <yourverylongactivekey>
+```
+**Declare your witness intention to the network**
+  ```update_witness <YourWitnessName> "URL of your witness intention" REVpublicKEY {"account_creation_fee": "10.000 DREAM", "maximum_block_size": 131072, "bsd_interest_rate":1000} true```
+  
+  
+
+# File contents
+```
+Archive:  reveurd.zip
+ Length   Method    Size  Cmpr    Date    Time   CRC-32   Name
+--------  ------  ------- ---- ---------- ----- --------  ----
+       0  Stored        0   0% 2019-03-27 17:26 00000000  data/
+    3940  Defl:N     1623  59% 2019-03-27 17:22 58196b20  data/config.ini
+52026744  Defl:N 12432988  76% 2019-03-26 21:00 00cc7f95  reveurd
+16265312  Defl:N  4913914  70% 2019-03-27 17:22 26997562  rev_wallet
+--------          -------  ---                            -------
+68295996         17348525  75%                            4 files
+
+```
 ### Todo: 
 * Match config.ini used ports to ports in rev_wallet (probably better to have ports different than the original steem B/C)
 * Recompile rev_wallet with nice default port values
