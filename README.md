@@ -37,11 +37,12 @@ unlock superSecure1234
 import_key <yourverylongactivekey>
 ```
 **Declare your witness intention to the network**
+
   ```update_witness <YourWitnessName> "URL of your witness intention" REVpublicKEY {"account_creation_fee": "10.000 DREAM", "maximum_block_size": 131072, "bsd_interest_rate":1000} true```
   
   
 
-# File contents
+### File contents
 ```
 Archive:  reveurd.zip
  Length   Method    Size  Cmpr    Date    Time   CRC-32   Name
