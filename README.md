@@ -15,18 +15,17 @@ You can explore it and see it working on: http://dev.rockdio.org/revex/
 * Request an account to play (here or in the STEEMit post: https://steemit.com/utopian-io/@nnnarvaez/exploring-the-economic-model-of-steem-like-blockchains )
 * All STEEM libraries work. With just minor modifications 
 
-#### What's next? 
+#### What's next? (Or tasks you can help with)
 * Make available a web interface for the Wallet operations based on STEEM Wallet from condenser
 * Make the internal market available
 * Try to make a simple WEB Interface to allow easier interaction (posting and stuff)
 * Would be nice to have a custom Json editor interface to use the chain for other than blogging
-* 
-
+ 
 
 **TO-DO:** 
 * Add files to repo with updated ASSETs for BEEM, STEEM Python, steemJS 
 * Submit PR to proper repos with the chain ID and assets
-* 
+
 
 
 
