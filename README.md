@@ -8,7 +8,11 @@ A test CHAIN based on the STEEM blockchain
 ```
 163.172.25.72:3333
 ```
+**RCP Nodes** : 
 
+```
+163.172.25.72:8751
+```
 ## Assets:
 
 * STEEM -> DREAM
