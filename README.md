@@ -47,6 +47,7 @@ $ git clone https://github.com/nnnarvaez/ReveurCOIN-binaries.git
 $ unzip reveurd.zip
 ```
 
+
 ```
 $ cd data
 
@@ -59,8 +60,16 @@ $ cd ..
 $ reveurd -d data
 ```
 
+
 You will see a lot of red and it will start receiving pushed blocks 
 There is a constant warning of block size too small, it was a failed attemp to avoid writting empty blocks, it is just a warning ignore it, it will be removed in the next release.
+
+# If you dont want to run a full node:
+** NOTE: ** you can also download the individual files 
+
+* Low memory node and rev_wallet (**to do:**  forgot to add the config.ini to low memory node)
+* rev_wallet only
+
 
 **Run the wallet:**
 ```
@@ -73,7 +82,7 @@ set_password superSecure1234
 unlock superSecure1234
 import_key <yourverylongactivekey>
 ```
-**Declare your witness intention to the network**
+**Declare your witness intention to the network** (Unless you dont want to witness and just want to use your user to play and see)
 
   ```update_witness <YourWitnessName> "URL of your witness intention" REVpublicKEY {"account_creation_fee": "10.000 DREAM", "maximum_block_size": 131072, "bsd_interest_rate":1000} true```
   
