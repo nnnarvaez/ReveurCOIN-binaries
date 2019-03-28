@@ -40,6 +40,7 @@ You can explore it and see it working on: http://dev.rockdio.org/revex/
 The idea would be to explore the options to improve the understanding of the economical management of the platform and its posible repercussions on price and value.
 
 ### Install and deployment
+
 Clone
 
 ```
@@ -47,6 +48,8 @@ $ git clone https://github.com/nnnarvaez/ReveurCOIN-binaries.git
 $ unzip reveurd.zip
 ```
 
+**NOTE:** If you dont have steemd already, you should probably install the dependencies, don't panic here is the list for humans:
+https://github.com/nnnarvaez/ReveurCOIN-binaries/blob/master/dependencies.md
 
 ```
 $ cd data
