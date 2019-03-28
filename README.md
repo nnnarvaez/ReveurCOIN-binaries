@@ -61,6 +61,19 @@ Archive:  reveurd.zip
 * ~Reupload single zip file with suggested folder structure~ **done**
 * Recompile reveurd in low memory mode
 
+# Economy:
+
+Since the platform dilutes he value of VESTs on token emission and it is somehow designed to be SBD centric in its calculations, it is important to provide dynamic ways for the witnesses to act/react to the volatility of SBD and maintain the PEG, this requieres understanding of economic mechanisms from the TOP20. 
+
+Those mechanisms are: SBD Interest Rate / SBD Stop % / Price feed / Price BIAS / Haircut price % 
+
+* Migrate haircut % from hardcoded in database.hpp to a config.hpp
+* Migrate both haircut % and SBD stop % to a witness setting es part of the PEG control mechanism (price feed + haircut + SBD_stop) 
+
+First step: add definitions and variables to 
+`https://github.com/steemit/steem/blob/master/libraries/chain/include/steem/chain/witness_objects.hpp`
+
+
 ```
   -h [ --help ]                         Print this help message and exit.
   -s [ --server-rpc-endpoint ] [=arg(=ws://127.0.0.1:8090)]
