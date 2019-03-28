@@ -100,3 +100,20 @@ add definitions and variables to
 - Update `database.cpp` so **Witnesses** can update the `global property object` accordinly 
 - Update `steem_evaluator.cpp` to evaluate the operations to set those variables
 - Update `condenser_api` plugin and `database_api` plugin so **Witnesses** can update / set those values using http calls
+
+
+
+### Friendly reminder:
+
+Discover the purpose of:
+
+
+```
+STEEM_MIN_LIQUIDITY_REWARD
+
+STEEM_START_MINER_VOTING_BLOCK
+
+STEEM_CURATE_APR_PERCENT
+
+STEEM_MIN_BLOCK_SIZE_LIMIT
+```
