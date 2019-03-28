@@ -65,13 +65,16 @@ You will see a lot of red and it will start receiving pushed blocks
 There is a constant warning of block size too small, it was a failed attemp to avoid writting empty blocks, it is just a warning ignore it, it will be removed in the next release.
 
 # If you dont want to run a full node:
-** NOTE: ** you can also download the individual files 
+
+**NOTE:** you can just download the individual files 
 
 * Low memory node and rev_wallet (**to do:**  forgot to add the config.ini to low memory node)
 * rev_wallet only
 
+---
 
 **Run the wallet:**
+
 ```
 $ rev_wallet -s ws://127.0.0.1:8752
 ```
