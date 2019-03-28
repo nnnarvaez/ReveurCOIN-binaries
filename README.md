@@ -1,5 +1,34 @@
 # ReveurCOIN-binaries
 A test CHAIN based on the STEEM blockchain
+**CHAIN ID** : 7bbc305bd2af8ca0ac072a6754a24023f66b81229b7ef760b929a91b8a3175c8
+
+## Assets:
+
+* STEEM -> DREAM
+* VESTS -> VESTS
+* SBD -> REV
+
+
+You can explore it and see it working on: http://dev.rockdio.org/revex/
+
+#### Accesing it:
+* Request an account to play (here or in the STEEMit post: https://steemit.com/utopian-io/@nnnarvaez/exploring-the-economic-model-of-steem-like-blockchains )
+* All STEEM libraries work. With just minor modifications 
+
+#### What's next? 
+* Make available a web interface for the Wallet operations based on STEEM Wallet from condenser
+* Make the internal market available
+* Try to make a simple WEB Interface to allow easier interaction (posting and stuff)
+* Would be nice to have a custom Json editor interface to use the chain for other than blogging
+* 
+
+
+**TO-DO:** 
+* Add files to repo with updated ASSETs for BEEM, STEEM Python, steemJS 
+* Submit PR to proper repos with the chain ID and assets
+* 
+
+
 
 ### Purpose / Objetive:
 The idea would be to explore the options to improve the understanding of the economical management of the platform and its posible repercussions on price and value.
