@@ -80,15 +80,27 @@ There is a constant warning of block size too small, it was a failed attemp to a
 
 ---
 
+# If you are running a witness node:
+
 **Run the wallet:**
 
-If you are running a witness node:
 ```
 $ rev_wallet -s ws://127.0.0.1:8752
 ```
 Localhost and the port (8752 is the one used in the provided config.ini)
 
-If you are not running a witness node:
+# If you are not running a witness node:
+
+**Get only the wallet:**
+
+```
+mkdir revwallet
+cd revwallet
+wget https://github.com/nnnarvaez/ReveurCOIN-binaries/blob/master/wallet_only.zip
+unzip wallet_only.zip
+```
+
+**Run the wallet:**
 ```
 $ rev_wallet -s ws://163.172.25.72:8752
 ```
