@@ -96,8 +96,7 @@ Localhost and the port (8752 is the one used in the provided config.ini)
 ```
 mkdir revwallet
 cd revwallet
-wget https://github.com/nnnarvaez/ReveurCOIN-binaries/blob/master/wallet_only.zip
-unzip wallet_only.zip
+wget https://github.com/nnnarvaez/ReveurCOIN-binaries/blob/master/rev_wallet
 ```
 
 **Run the wallet:**
